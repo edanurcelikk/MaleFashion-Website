@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Male Fashion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="homePage">
+
+        <div class="containerText">
+            <p class="freeText">Free shipping, 30-day return or refund guarantee.</p>
+            <p class="signInText">SIGN IN</p>
+            <p class="faqsText">FAQS</p>
+            <div class="dropdown">
+                <button class="btn btn-black dropdown-toggle" style="color: white;" type="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    USD
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">USD</a>
+                    <a class="dropdown-item" href="#">EUR</a>
+                    <a class="dropdown-item" href="#">TRY</a>
+                </div>
+            </div>
+        </div> <!--containerText end-->
+
+        <div class="navbar">
+            <img src="images/logo2.png" class="logo2">
+            <ul>
+                <a href="#body">
+                    <li>Home</li>
+                </a>
+                <a href="#aboutPage">
+                    <li>Shop</li>
+                </a>
+                <a href="#">
+                    <li>Blog</li>
+                </a>
+                <a href="#">
+                    <li>Contacts</li>
+                </a>
+            </ul>
+            <a href="#"><img src="images/searchButton.png" class="searchButton"></a>
+            <a href="#"><img src="images/heartButton.png" class="heartButton"></a>
+            <a href="#"><img src="images/shoppingBag.png" class="shoppingBag"></a>
+            <p class="dollarText">$0.00</p>
+
+        </div> <!--navbar end-->
+    </div> <!--homePage end-->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/firstPic.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>SUMMER COLLECTION</h1>
+                    <h2>Fall - Winter Collections 2025</h2><br>
+                    <h4>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment
+                        to exceptional quality.</h4>
+                    <button type="button" class="btn btn-dark" id="btnHomePage">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/secondPic.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>SUMMER COLLECTION</h1>
+                    <h2>Fall - Winter Collections 2025</h2><br>
+                    <h4>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment
+                        to exceptional quality.</h4>
+                    <button type="button" class="btn btn-dark" id="btnHomePage">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/thirdPic.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>SUMMER COLLECTION</h1>
+                    <h2>Fall - Winter Collections 2025</h2><br>
+                    <h4>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment
+                        to exceptional quality.</h4>
+                    <button type="button" class="btn btn-dark" id="btnHomePage">Shop Now</button>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="secondPageContainer">
+        <div class="jacketContainer">
+            <img class="jacketImage" src="images/jacket.jpg">
+            <h3 class="jacketTitle">Clothing Collections 2025</h3>
+            <button type="button" class="btn btn-outline-secondary rounded-pill">SHOP NOW</button>
+        </div>
+
+        <div class="accessoriesContainer">
+            <img class="accessoriesImage" src="images/sunglasses.jpg">
+            <h3 class="accessoriesTitle">Accessories</h3>
+            <button type="button" class="btn btn-outline-secondary rounded-pill">SHOP NOW</button>
+        </div>
+
+        <div class="shoesContainer">
+            <img class="shoesImage" src="images/shoes.jpg">
+            <h3 class="shoesTitle">Shoes Spring 2025</h3>
+            <button type="button" class="btn btn-outline-secondary rounded-pill">SHOP NOW</button>
+        </div>
+    </div><!--secondPageContainer end-->
+
+    <!--shopPage-->
+
+    <div class="shopPage">
+        <h3>New Arrivals</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/shirtProduct.jpg">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Shirt</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/shoesProduct.jpg">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Shoes</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div><!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/cardiganProduct.jfif">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Cardigan</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/jacketProduct.jfif">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Jacket</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/necklaceProduct.jfif">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Necklace</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/pantsProduct.jpg">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Pants</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/sweaterProduct.jfif">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Sweater</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+
+                <div class="col-md-3">
+                    <div class="dressCard">
+                        <div class="dressCardHead">
+                            <img class="dressCardImage" src="images/products/poloJumperProduct.jpg">
+                        </div><!--dressCardHead end-->
+
+                        <div class="dressCardBody">
+                            <div class="dressCardTitle">Polo Jumper</div>
+                            <div class="dressCardPrice">20$</div>
+                            <div class="row">
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner bag-button">ADD TO BAG</div>
+                                    </a></div>
+                                <div class="col-md-6 card-button"><a href="">
+                                        <div class="card-button-inner wish-button">WHISHLIST</div>
+                                    </a></div>
+                            </div>
+                        </div><!--dressCardBody end-->
+                    </div> <!--dressCard end-->
+                </div> <!--col end-->
+            </div><!--row end-->
+        </div><!--container end-->
+    </div><!--shopPage end-->
+
+    <!--blogPage-->
+    <div class="blogPage">
+        <h3>OUR BLOG</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blogCard">
+                        <div class="blogCardHead">
+                            <img class="blogCardImage" src="images/blogCards/10TrendingPiecesMain.jpg">
+                        </div><!--blogCardHead end-->
+
+                        <div class="blogCardBody">
+                            <h5>Hot Right Now: 10 Trending Pieces For Summer 2025</h5>
+                            <div class="center">
+                                <button class="btn">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div><!--blogCardBody end-->
+                    </div><!--blogCard end-->
+                </div><!--col end-->
+
+                <div class="col-md-4">
+                    <div class="blogCard">
+                        <div class="blogCardHead">
+                            <img class="blogCardImage" src="images/blogCards/luxury-coats-men.jpg">
+                        </div><!--blogCardHead end-->
+
+                        <div class="blogCardBody">
+                            <h5>The Best Luxury Coats And Jackets Brands For Men</h5>
+                            <div class="center">
+                                <button class="btn">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div><!--blogCardBody end-->
+                    </div><!--blogCard end-->
+                </div><!--col end-->
+
+                <div class="col-md-4">
+                    <div class="blogCard">
+                        <div class="blogCardHead">
+                            <img class="blogCardImage" src="images/blogCards/luxury-pieces-worth.jpg">
+                        </div><!--blogCardHead end-->
+
+                        <div class="blogCardBody">
+                            <h5>9 Luxury Menswear Pieces That Are Worth The Money</h5>
+                            <div class="center">
+                                <button class="btn">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div><!--blogCardBody end-->
+                    </div><!--blogCard end-->
+                </div><!--col end-->
+
+                <div class="col-md-4">
+                    <div class="blogCard">
+                        <div class="blogCardHead">
+                            <img class="blogCardImage" src="images/blogCards/mens-suit-trends-new-2.jpg">
+                        </div><!--blogCardHead end-->
+
+                        <div class="blogCardBody">
+                            <h5>The Biggest Tailoring & Suit Trends For Men In 2024</h5>
+                            <div class="center">
+                                <button class="btn">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div><!--blogCardBody end-->
+                    </div><!--blogCard end-->
+                </div><!--col end-->
+
+                <div class="col-md-4">
+                    <div class="blogCard">
+                        <div class="blogCardHead">
+                            <img class="blogCardImage" src="images/blogCards/polos-need.jpg">
+                        </div><!--blogCardHead end-->
+
+                        <div class="blogCardBody">
+                            <h5>7 Polo Shirts Every Man Needs In Their Wardrobe</h5>
+                            <div class="center">
+                                <button class="btn">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div><!--blogCardBody end-->
+                    </div><!--blogCard end-->
+                </div><!--col end-->
+
+                <div class="col-md-4">
+                    <div class="blogCard">
+                        <div class="blogCardHead">
+                            <img class="blogCardImage" src="images/blogCards/timeless-aw-pieces.jpg">
+                        </div><!--blogCardHead end-->
+
+                        <div class="blogCardBody">
+                            <h5>10 Timeless Pieces Every Man Needs For Autumn</h5>
+                            <div class="center">
+                                <button class="btn">
+                                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                        <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                    </svg>
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div><!--blogCardBody end-->
+                    </div><!--blogCard end-->
+                </div><!--col end-->
+            </div><!--row end-->
+        </div><!--container end-->
+    </div><!--blogPage end-->
+
+    <div class="container">
+        <div class="contactPage">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contactText">
+                        <h3>Contact Us</h3>
+                        <p>As you might expect of a company that began as a high-end interiors contractor, we pay
+                            strict
+                            attention.</p>
+                        <h4>America</h4>
+                        <p>195 E Parker Square Dr, Parker, CO 801
+                            +43 982-314-0958</p>
+                        <h4>France</h4>
+                        <p>109 Avenue Léon, 63 Clermont-Ferrand
+                            +12 345-423-9893</p>
+                    </div>
+                </div><!--col end-->
+
+                <div class="col-md-8">
+                    <div class="contactBox">
+                        <form>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="Name"
+                                        style="width: 300px; height: 50px;">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="Email"
+                                        style="width: 300px; height: 50px;">
+                                </div>
+                                <div class="input-wrapper">
+                                    <div class="col-12">
+                                        <textarea placeholder="Message" style="outline: none;"></textarea>
+                                    </div>
+                                    <div class="sendMessageButton">
+                                        <div class="col-12">
+                                            <input type="submit" value="SEND MESSAGE" class="btn-block">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div><!--col end-->
+            </div> <!--row end-->
+
+
+            <div class="mapContainer">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.6570862111803!2d-97.05245342481783!3d33.03916367054391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2d755dcf4895%3A0x2296ce78afdb28b1!2sParker%20Square%20Rd%2C%20Flower%20Mound%2C%20TX%2075028%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1726138907741!5m2!1str!2str"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div><!--col end-->
+                    <div class="col-6">
+                        <div class="map2" style="position: relative; left: 55px;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3848081613464!2d2.4133405759998725!3d48.85087210123621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67281412eb593%3A0x82a8dc30ebbfe78f!2sAv.%20L%C3%A9on%20Gaumont%2C%2075020%20Paris%2C%20Fransa!5e0!3m2!1str!2str!4v1726138995918!5m2!1str!2str"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div><!--col end-->
+                </div><!--row end-->
+            </div><!--mapContainer end-->
+        </div><!--contactPage end-->
+    </div><!--container end-->
+
+    <div class="footer">
+        <div class="row">
+            <div class="firstPart">
+                <div class="col">
+                    <img src="images/logo2.png" class="logoFooter">
+                    <p>The customer is at the heart of our <br>unique business model, which includes <br>design.</p>
+                </div><!--col end-->
+            </div><!--firsPart end-->
+
+            <div class="secondPart">
+                <div class="col">
+                    <h5>Shopping</h5>
+                    <p>Clothing Store</p>
+                    <p>Trending Shoes</p>
+                    <p>Accessories</p>
+                    <p>Sale</p>
+                </div><!--col end-->
+            </div><!--secondPart end-->
+
+            <div class="thirdPart">
+                <div class="col">
+                    <h5>Shopping</h5>
+                    <p>Contact Us</p>
+                    <p>Payment Methods</p>
+                    <p>Delivery</p>
+                    <p>Return & Exchanges</p>
+                </div><!--col end-->
+            </div><!--thirdPart end-->
+
+            <div class="fourthPart">
+                <div class="col">
+                    <h5>New Letter</h5>
+                    <p>Be the first to know about new<br> arrivals, look books, sales & promos!</p>
+                    <div class="sendEmailFooter">
+                        <input type="text" class="form-control" placeholder="Your email">
+                    </div>
+                </div>
+            </div><!--col end-->
+        </div><!--thirdPart end-->
+        <p
+            style="color: rgba(255, 255, 255, 0.58);position: relative; top: 100px;  display: flex; justify-content: center; align-items: center; ">
+            Copyright © 2024 All rights reserved</p>
+    </div><!--row end-->
+    </div><!--footer end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
