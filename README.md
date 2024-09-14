@@ -27,4 +27,11 @@ The website includes the following main pages:
 - **CSS3:** For styling and layout.
 - **Bootstrap:** For user interface design.
 
+## ⭐ Logo Design ⭐
+
+The logo displayed in the navbar of MaleFashion-Website was designed by me using [Canva](https://www.canva.com). Canva's intuitive design tools were used to create a logo that captures the modern and sophisticated aesthetic of the site, aligning with the fashion-forward vision of the project.
+
 ## ⭐ Video Demonstration ⭐
+
+https://github.com/user-attachments/assets/cafeb845-69bb-4202-b47c-006cc2f3b3bf
+
